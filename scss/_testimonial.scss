@@ -1,0 +1,236 @@
+ @media screen and (min-width:100px){
+ .testimonial{
+ 	text-align: center;
+	h1{
+		font: 30px $font1;
+		text-transform: uppercase;
+		padding:10px 10px 15px;
+	}
+ }
+ .testimonial-bg{
+	background: #ededed;
+}
+#quotes{
+	position: relative;
+	padding-top: 30px;
+	max-width: 1240px;
+	padding: 30px 25px;
+	margin: auto;
+	div.borrower div{
+		display: none;
+	}
+	img{
+		border-radius: 12px;
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 22px;
+	}
+	p{
+		font-size: 16px;
+		line-height: 25px;
+		margin-bottom: 16px;
+		color: #58595b;
+	}
+	b{
+		color: #666;
+		font: 16px/1.5 $font1;
+		margin-bottom: 30px;
+		display: block;
+	}
+	div.borrower{
+		position: relative;
+		&:after{
+		position: absolute;
+		top: 100px;
+		right: 0;
+	}
+	}
+	div:nth-child(2).borrower:after{
+		content: url(../images/blue-quote.png);
+	}
+	div:nth-child(3).borrower:after{
+		content: url(../images/green-quote.png);
+	}
+	div:nth-child(4).borrower:after{
+		content: url(../images/yellow-quote.png);
+	}
+	div:nth-child(5).borrower:after{
+		content: url(../images/blue-quote.png);
+	}
+}
+.testi-2{
+    background: #ededed;
+    color: #58595b;
+    text-align: center;
+    .container{
+    	position: relative;
+    	padding: 30px 25px;
+    }
+    .quote2{
+    	display: none;
+    	p{
+		    font-size: 18px;
+		    line-height: 30px;
+    		padding: 130px 0 10px 0;
+		    &:after{
+				position: absolute;
+				content: url(../images/yellow-double-quote.png);
+			    left: 0;
+			    right: 0;
+			    top: 47px;
+		    }
+    	}
+    	span{
+    		font: 16px/1.5 $font1;
+    	}
+    }
+}
+}
+
+@media screen and (min-width:480px){
+ .testimonial-bg{
+	background: #fff;
+}
+#quotes{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	padding: 30px 25px 0;
+	div{
+		&:nth-child(1) div{
+			position: absolute;
+			color: #fff;
+			display: block;
+			font: 40px/1 $font-bold;
+			width: 292px;
+			right: 195px;
+			top: 315px;
+			text-transform: uppercase;
+			margin: auto;
+		    display: block;
+		    background: #2cc3da;
+		    width: 265px;
+		    min-width: 265px;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    padding: 10px;
+		}
+		&:nth-child(1){
+			padding-top: 103px;
+			-webkit-box-flex: 1;
+			    -ms-flex: 1 1 100%;
+			        flex: 1 1 100%;
+			p{
+				font-size: 18px;
+			}
+		}
+		&:nth-child(2),
+		&:nth-child(3),
+		&:nth-child(4){
+			-webkit-box-flex: 1;
+			    -ms-flex: 1 1 27%;
+			        flex: 1 1 27%;
+			background: #ededed;
+			padding: 30px 10px 10px;
+			img{
+				margin: 20px auto;
+			}
+		}
+		&:nth-child(5){
+			display: none;
+		}
+	}
+	div.borrower:after{
+		top: 135px;
+		left: calc(100% - 67px);
+	}
+}
+.testi-2{
+	background: #273945;
+    color: #fff;
+    .quote2 p{
+    	font: 28px/1.3 $font-bold;
+    	padding-bottom: 20px;
+    }
+}
+#quotes div{
+	&:nth-child(2):before,
+	&:nth-child(3):before{
+		position: absolute;
+		content: "";
+		height: 100%;
+		top: 0;
+	}
+	&:nth-child(2):before{
+		right: 100%;
+		border-left: 1000px solid #ededed;
+	}
+	&:nth-child(3):before{
+		left: 199%;
+		border-right: 1000px solid #ededed;
+	}
+}
+}
+@media screen and (min-width:768px){
+.testimonial h1{
+	font-size: 40px;
+	padding: 55px 25px 15px;
+	text-align: left;
+}
+.testi-2 .container{
+	padding-bottom: 100px;
+}
+#quotes p,
+#quotes div:nth-child(1) p{
+	font-size: 20px;
+	line-height: 30px;
+}
+#quotes div.borrower:after{
+	top: 155px;
+    left: calc(100% - 100px);
+}
+}
+@media screen and (min-width:1024px){
+#quotes div:nth-child(1) {
+    background: url(../images/borrowers-bg.png) top center no-repeat;
+    height: 670px;
+    width: 1024px;
+    img{
+    	position: relative;
+    	right: 157px;
+    	top: 35px;
+    }
+    div{
+    	top: 273px;
+    	left: 526px;
+    }
+    p{
+    	position: relative;
+    	width: 350px;
+    	left: calc(50% - 350px);
+    	padding-top: 17px;
+    }
+    b{
+    	position: relative;
+    	width: 387px;
+    	left: calc(50% - 350px);
+    }
+}
+#quotes div.borrower:after{
+    left: calc(100% - 235px);
+}
+.testi-2{
+	position: relative;
+	background: url(../images/our-borrowers-bg.jpg) top center no-repeat;
+	background-size: cover;
+	.quote2 p{
+		padding-bottom: 50px;
+	}
+}
+}
+
+
+

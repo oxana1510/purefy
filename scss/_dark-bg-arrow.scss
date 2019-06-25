@@ -1,0 +1,44 @@
+.upperc{
+	text-transform: uppercase;
+}
+@media screen and (min-width:100px){
+.dark-bg-arrow{
+	background: #273945;
+	color: #fff;
+	.container{
+		padding: 20px 25px 90px;
+		background: url(../images/gauges.png) bottom no-repeat;
+		background-size: contain;
+	}
+	h2{
+		font: 40px/40px $font-bold;
+		margin-bottom: 20px;
+	}
+	p{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	a{
+		color: #03bfd7;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+}
+@media screen and (min-width:480px){
+.dark-bg-arrow .container{
+	padding-bottom: 140px;
+}
+}
+@media screen and (min-width:768px){
+.dark-bg-arrow .container{
+	padding: 30px 25px 200px;
+	background-size: 80%;
+}
+}
+@media screen and (min-width:1024px){
+.dark-bg-arrow .container{
+	padding: 60px 20px 200px;
+}
+}

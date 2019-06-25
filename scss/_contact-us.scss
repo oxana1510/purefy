@@ -1,0 +1,65 @@
+@media screen and (min-width: 100px){
+.contact-us{
+	h1{
+		font: 24px $font1;
+		padding-bottom: 15px;
+		color: #273945;
+	}
+	h2{
+		font: 600 20px $font1;
+		padding-bottom: 10px;
+	}
+	.contact-wrap{
+		margin-top: 55px;
+	}
+	.contact-section{
+		margin-bottom: 20px;
+		text-align: center;
+		div:first-child{
+			margin-bottom: 20px;
+		}
+		div:last-child{
+			width: 230px;
+			text-align: left;
+			margin: auto;
+			padding-bottom: 20px;
+		}
+	}
+	p{
+		strong{
+			font-family: $font1;
+			font-weight: normal;
+		}
+	}
+	a{
+		color: #03bfd7;
+		&:hover{
+			color: #000;
+		}
+	}
+}
+}
+@media screen and (min-width: 480px){
+.contact-us{
+	h1{
+		font-size: 40px;
+	}
+}
+}
+@media screen and (min-width: 768px){
+.contact-us{
+	.contact-wrap{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+	.contact-section{
+		-webkit-box-flex: 1;
+		    -ms-flex: 1 1 33%;
+		        flex: 1 1 33%;
+		div:last-child{	
+			margin-bottom: 0;
+		}
+	}
+}
+}

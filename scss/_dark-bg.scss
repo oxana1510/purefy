@@ -1,0 +1,25 @@
+@media screen and (min-width:100px){
+.dark-bg{
+    background: #58585a;
+    color: #fff;
+    .container{
+		padding: 20px;
+    }
+    h2{
+		font: 40px/40px $font-bold;
+		margin-bottom: 20px;
+	}
+	p{
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
+}
+@media screen and (min-width:768px){
+.dark-bg{
+   background: #273945;
+   .container{
+    	padding: 55px 20px;
+	}
+} 
+}

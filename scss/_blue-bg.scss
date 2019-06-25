@@ -1,0 +1,33 @@
+.blue-bg{
+    background: #03bfd7;
+    color: #fff;
+    text-align: center;
+    h1, h2{
+		 font: 24px/28px $font-bold;
+		 margin-bottom: 10px;
+    }
+    p{
+    	font-family: $font2;
+    	line-height: 30px;
+    }
+}
+@media screen and (min-width: 100px){
+.blue-bg .container{
+	padding: 20px; 
+}
+}
+@media screen and (min-width:768px){
+.blue-bg{
+	h1, h2{
+		font-size: 40px;
+		line-height: 46px;
+	}
+	.container{
+		padding: 55px 20px;
+	}
+	p{
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
+}

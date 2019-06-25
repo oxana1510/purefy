@@ -1,0 +1,125 @@
+.process-bg{
+    background: #273945;
+    color: #fff;
+    h2{
+        font-weight: bold;
+        text-align: center;
+    }
+    a{
+        color: #03bfd7;
+        &:hover{
+           color: #000; 
+        }
+    }
+}
+@media screen and (min-width:100px){
+.process-bg{
+    .container{
+        padding: 20px;
+    }  
+    h2{
+        font: 30px  $font-bold;
+    }
+    h3{
+        font: 18px $font-bold;
+        margin-bottom: 10px;
+    }
+    p{
+        margin-bottom: 15px;
+    }
+}
+}
+ @media screen and (min-width:768px){
+.process-bg{
+    .container{
+        padding: 40px 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    h2{
+    -webkit-box-flex: 1;
+        -ms-flex: 1 100%;
+            flex: 1 100%;
+    margin-bottom: 50px;
+    }
+    div>div{
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 26%;
+                flex: 1 1 26%;
+        margin-bottom: 60px;
+        text-align: center;
+        padding: 0 20px;
+    }
+}
+}
+@media screen and (min-width:1024px){
+.process-bg{
+    counter-reset: numbers;
+    .container{
+        padding: 55px 20px;
+    }
+    div>div{
+        position: relative;
+        background-color: #fff;
+        border-radius: 12px;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 10%;
+                flex: 1 1 10%;
+        padding: 90px 10px 0;
+        margin: 0 8px;
+    }
+    h3{
+        color: #000;
+    }
+    h2{
+       text-align: left; 
+    }
+    p{
+        color: #444;
+    }
+    div>div:before{
+        position: absolute;
+        counter-increment: numbers;
+        content: counters(numbers,".");
+        top: -45px;
+        font: 25px $font-bold;
+        color: #a4c9e4;
+        left: 45%;
+    }
+}
+.process-bg .container>div{
+   &:nth-child(3){
+        background-image: url(../images/icon-1.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+    } 
+    &:nth-child(4){
+        background-image: url(../images/icon-2.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    &:nth-child(5){
+        background-image: url(../images/icon-3.jpg);
+        background-repeat: no-repeat;
+       background-position: top center;
+    }
+    &:nth-child(6){
+        background-image: url(../images/icon-4.jpg);
+        background-repeat: no-repeat;
+       background-position: top center;
+    }
+    &:nth-child(7){
+        background-image: url(../images/icon-5.jpg);
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    &:nth-child(8){
+        background-image: url(../images/icon-6.jpg);
+        background-repeat: no-repeat;
+       background-position: top center;
+    }
+}
+}

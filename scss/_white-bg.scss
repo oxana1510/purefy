@@ -1,0 +1,27 @@
+ @media screen and (min-width:100px){
+.white-bg{
+	padding: 55px 20px;
+	.whyheader{
+		font: 24px $font-bold;
+		margin-bottom: 11px;
+	}
+	p{
+		font-size: 18px;
+		margin-bottom: 1em;
+		line-height: 24px;
+		color: #58595b;
+	}
+} 
+}
+@media screen and (min-width:768px){
+.white-bg{
+	.whyheader{
+		font-size: 30px;
+		margin-bottom: 15px;
+	}
+	p{
+		line-height: 30px;
+		font-size: 20px;
+	}
+}
+}

@@ -1,0 +1,46 @@
+.icon-bg .container{
+    background-image: url(../images/parent-loans-icons.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    a{
+        color: #03bfd7;
+        &:hover{
+            color: #000;
+        }
+    }
+}
+@media screen and (min-width:100px){
+.icon-bg .container{
+    padding-top: 50px;
+    p{
+    	font-family: $font3;
+    }
+}
+}
+ @media screen and (min-width:480px){
+.icon-bg .container{
+    padding-top: 100px;
+}
+}
+@media screen and (min-width:768px){
+.icon-bg .container{
+    padding-top: 120px;
+}  
+}
+@media screen and (min-width:1024px){
+.icon-bg .container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    div{
+	    -webkit-box-flex: 1;
+	        -ms-flex: 1 1 48%;
+	            flex: 1 1 48%;
+	    width: 0;
+	    &:last-child{
+		    margin-left: 50px;
+		}
+	}
+} 
+}

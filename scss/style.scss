@@ -1,0 +1,76 @@
+@import "fonts";
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+:root{
+	font-size: 10px;
+}
+body{
+	overflow-x: hidden;
+}
+.wrapper{
+	min-width: 320px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: $font3;	
+	overflow-x: hidden;
+	color: #000;
+}
+a{
+	text-decoration: none;
+
+}
+li{
+	list-style: none;
+	letter-spacing: 0.5px;
+}
+h1, 
+h2,
+h3,
+h4{
+	font-weight: normal;
+}
+p{
+	font-size: 17px;
+	letter-spacing: 0.8px;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1240px;
+	width: 100%;
+}
+
+@import "header";
+@import "footer";
+@import "main";
+@import "team";
+@import "about";
+@import "howmuch1";
+@import "blue-bg";
+@import "bulb-bg";
+@import "dark-bg-arrow";
+@import "white-bg";
+@import "debt";
+@import "icon-bg";
+@import "dark-bg";
+@import "list-tick";
+@import "findrate-bg";
+@import "process-bg";
+@import "testimonial";
+@import "diversity";
+@import "learn";
+@import "blog-flex";
+@import "right-blog-section";
+@import "page-text";
+@import "login-select";
+@import "fmr";
+@import "contact-us";
+@import "sitemap";
+@import "comparison";
+
+
+
+

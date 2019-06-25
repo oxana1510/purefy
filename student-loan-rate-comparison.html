@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savings | Purefy
+        </title>
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+ <header class="header">
+    <a href="#" class="bigbtn">
+      Find My <strong>Rate</strong></a>
+    <div class="container">
+        <div class="head-block">
+          <a href="/">
+            <img alt="PenFed Credit Union" title="PenFed Credit Union - PenFed Student Loan Refinancing" src="images/purefy-logo.jpg" width="205" height="75" class="logo"></a>
+             <nav>
+                <input type="checkbox" id="inputMenu"><label for="inputMenu" class="inputMenu"><i class="fa mobmenu" id="mobmenu" role="button" tabindex="0"></i></label>
+                      <ul class="showmenu">
+                        <li class="sf-parent"><a href="why.html">Refinance Loans</a></li>
+                        <li class="sf-parent"><a href="student-loan.html">Student Loans</a></li>
+                        <li class="sf-parent"><a href="about.html">About</a><ul class="dropdown">
+                            <li class="sub-menu"><a href="#">Why Purefy?</a></li>
+                            <li class="sub-menu"><a href="team.html">Our Team</a></li>
+                            <li class="sub-menu"><a href="#">Careers</a></li>
+                            <li class="sub-menu"><a href="testimonials.html">Our Borrowers</a></li>
+                            <li class="sub-menu"><a href="diversity.html">Diversity Statement</a></li>
+                            <li class="sub-menu"><a href="learn.html">Blog</a></li>
+                            <li class="sub-menu"><a href="faq.html">FAQs</a></li>
+                            <li class="sub-menu"><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="sf-parent"><a href="login-select.html">Login</a></li>
+                </ul>
+    </nav>      
+<a href="#" class="head-btn">Find My Rate</a>
+</div>
+</div>
+</header>
+<main class="main-pd">
+<section class="all-lite slight-bg">
+<div class="container">
+        <div class="gradient-div"></div>
+        <div class="resultsnew">
+          <div id="opaque">
+            <div class="mainhead term-select">
+              <div>
+                <h1 class="results-h1">Confirm your refinancing objective, then select your best option.</h1>
+              </div>
+              <label class="term">
+                <h2 class="results-h3">Maximum lifetime savings</h2>
+                <i class="fa-caret-down"></i>
+                <div>
+                    <input type="radio" name="pull" data-validation="required" value="5-8">
+                    <p class="goal-term">
+                    5-8 year term
+                  </p>
+                    <p class="goal-rate">
+                    Fixed rates from <span>NaN%</span>
+                    </p>
+                      <p class="goal-rate">
+                        Variable rates from <span>NaN%
+                      </span></p>
+                </div>
+                </label>
+                <label class="term selected">
+                    <h2 class="results-h3"> Balanced savings</h2><i class="fa-caret-down"></i><div><input type="radio" name="pull" data-validation="required" checked="" value="8-12"><p class="goal-term">
+                    8-12 year term
+                  </p>
+                  <p class="goal-rate">
+                    Fixed rates from <span>NaN%</span></p>
+                  <p class="goal-rate">
+                    Variable rates from <span>NaN%
+                    </span></p>
+                    </div>
+                </label>
+                <label class="term">
+                    <h2 class="results-h3">Minimum monthly payment</h2>
+                    <i class="fa-caret-down"></i><div>
+                        <input type="radio" name="pull" data-validation="required" value="12-20">
+                        <p class="goal-term">
+                        12-20 year term
+                      </p>
+                      <p class="goal-rate">
+                        Fixed rates from <span>NaN%</span></p>
+                      <p class="goal-rate">
+                        Variable rates from <span>NaN%
+                        </span></p>
+                        </div>
+                    </label>
+                  </div>
+                  <div class="psi-auto" id="rate_result" data-command="fragment:rate-result">
+                  <div id="load-container">
+                    <img src="images/load.gif"> &nbsp;
+                  </div>
+                  </div>
+
+                  <div>
+                      <label for="discounts" class="disc-label">
+                          <input type="checkbox" id="discounts" name="discounts" data-empty="true" value="" checked="" data-not="">
+
+                      Include autopay/loyalty discounts (when available)<sup>6</sup>
+                      </label>
+                  </div>
+            <form class="psi-submit raw" id="_frmrate" data-command="response-save" data-args="catalog=fmr2,key=ED6F82A0-3B92-4309-80CE-97A8D3A20B50" data-callback="calcPayment"><input type="hidden" id="_program" name="program" value=""><input type="hidden" id="_lender" name="lender-selected" value=""></form>
+            <h2 id="step2" class="results-h2">Would you like to apply with a cosigner?</h2>
+            <div class="custombox cos-box">
+              <div class="cos-add-sec">
+                <div class="flex-block">
+                  <div class="cos-add add-1 activate
+                    ">
+                    <input type="radio" name="cosign-relationship" value="" id="cosign_relationship" data-not="" data-empty="true" data-command="response-save" checked="">
+                    <label for="cosign_relationship">No</label>
+                  </div>
+                  <div class="cos-add add-2"><input type="radio" name="cosign-relationship" class="loanradio" id="cosign_relationship_2" value="spouse" data-not=""><label for="cosign_relationship_2">
+                    Yes (spouse)<span>*</span></label>
+                  </div>
+                  <div class="cos-add add-3">
+                    <input type="radio" name="cosign-relationship" class="loanradio" id="cosign_relationship_3" value="other" data-not="">
+                    <label for="cosign_relationship_3">
+                      Yes (non-spouse)<span></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <br class="clear">
+            <div class="results-box continuebtn clearfix">
+              <div class="divleft">
+                <div class="margintop35">
+                    <a href="#" class="startover"><i class="fa-angle-left" aria-hidden="true"></i> START OVER
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+</main>
+<footer>
+    <div class="container">
+    <div class="columns">
+      <h3>Connect With Us</h3>
+      <div class="social">
+        <a href="https://www.linkedin.com/company/pentagon-federal-credit-union" target="_blank"><img src="images/footer-linkedin.png" alt="LinkedIn" width="30" height="30"></a>
+        <a href="https://business.facebook.com/PenFedStudentLoans/" target="_blank"><img src="images/footer-facebook.png" alt="Facebook" width="30" height="30"></a>
+        <a href="https://twitter.com/PenFed" target="_blank"><img src="images/footer-twitter.png" alt="Twitter" width="30" height="30"></a></div>
+        <ul>
+           <li>
+            Email:&nbsp;<a href="mailto:info@purefy.com">info@purefy.com</a><br></li>
+            <li>
+                Text: <a href="tel:202.688.5572">202.688.5572</a><br></li>
+                <li>
+                    Call: <a href="tel:202.524.1115">202.524.1115</a></li>
+                    <li>
+                        Hours of Operation <br><b class="stext">Monday - Friday: 9 AM - 7 PM ET</b>
+                    </li>
+                </ul>
+            </div>
+            <div class="columns">
+              <h3>Learn More</h3>
+              <ul>
+                <li><a href="/eligibility-criteria">Eligibility Criteria</a></li>
+                <li><a href="/faq">FAQs</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/sitemap">Site Map</a></li>
+            </ul>
+        </div>
+        <div class="columns">
+          <h3>Legal Stuff</h3>
+          <ul>
+            <li><a target="_blank" href="/assets/support_files/PenFed_PrivacyNotice.pdf">Privacy Policy</a></li>
+            <li><a href="/legal/terms-of-use">Terms of Use</a></li>
+            <li><a href="/legal/site-security">Site Security</a></li>
+            <li>© 2014 - 2019 Purefy Inc.</li>
+        </ul>
+    </div>
+    <div class="columns">
+      <h3>Search</h3>
+      <form method="post" target="_top">
+        <div class="search-inpt"><input name="searchtext" id="searchtext" class="stext" placeholder=" Search" type="text"><img src="images/search.svg" width="20" height="20" alt="">
+        </div>
+    </form>
+    <p class="footer-img"><img src="images/omni-award.png" alt="2015 Gold Omni Award" width="127" height="80">
+        <img src="images/ima-award.png" alt="IMA Winner 2015 Best in Class" width="91" height="80">
+    </p>
+</div>
+</div>
+<div class="container2">
+        <div id="inlineDisclaimer">
+          <p><strong>Student Loan Rate Comparison Disclaimers:</strong></p><p><sup>1</sup>Monthly payment is estimated based on the information you entered on this page and the previous page.  </p><p><sup>2</sup>Life of loan savings and loss is estimated based on the information you entered on this page and the previous page. If the amount shown is negative (red) then the total interest payments over the life of the loan will increase. </p><hr><p>Your interest rate will be based on the lender's requirements. In most cases, lenders determine the interest rates based on your credit score, degree type and other credit and financial criteria. The information obtained on this site is based on what our lenders have provided to Purefy. We do our best to make sure our rates are up to the minute, but your final rate, if eligible, will be confirmed when you apply for a loan with a lender. Lender eligibility criteria and rates may change at anytime.</p><p>Logos and other trademarked items are properties of the lenders and used by permission on this site.</p><p>This site is not endorsed or affiliated with the U.S. Department of Education.</p><p>Please note that Purefy may be compensated by lenders if you complete the loan process.    </p><p>This page may contain links to third party and lender websites, advertisers, services, special offers, or other events or activities that are not owned or controlled by Purefy. Purefy does not endorse or assume any responsibility for any third party sites, information, materials, products, or services. If you access a third party or lender website from this page, you do so at your own risk, and you understand that Purefy's Privacy Policy does not apply to your use of such sites. You expressly relieve Purefy from any and all liability arising from your use of any third party or lender website, service, or content.    </p><p>Purefy is not a lender and we strongly encourage you to check the terms and eligibility requirements on our lender's websites. The final loan you receive is based on the lender's criteria.  </p><p>Purefy is not offered or endorsed by any college or university. Purefy is not affiliated with and does not endorse any college or university listed on this website. </p><p>You should review the benefits of your federal student loan; it may offer specific benefits that a private refinance/consolidation loan may not offer. If you work in the private sector, are in the military or taking advantage of a federal department of relief program, such as income based repayment or public service forgiveness, you may not want to refinance, as these benefits do not transfer to private refinance/consolidation loans. </p><p>Purefy reserves the right to modify or discontinue products and benefits at any time without notice. </p><hr><p> <strong>Citizens Disclaimers:</strong> </p><p><strong>Citizens Co-signer Release: </strong>Borrowers may apply for co-signer release after making 36 consecutive on-time payments of principal and interest. For the purpose of the application for co-signer release, on-time payments are defined as payments received within 15 days of the due date. Interest only payments do not qualify. The borrower must meet certain credit and eligibility guidelines when applying for the co-signer release. Borrowers must complete an application for release and provide income verification documents as part of the review. Borrowers who use deferment or forbearance will need to make 36 consecutive on-time payments after reentering repayment to qualify for release. The borrower applying for co-signer release must be a U.S. citizen or permanent resident. If an application for co-signer release is denied, the borrower may not reapply for co-signer release until at least one year from the date the application for co-signer release was received. Terms and conditions apply.</p><p><strong>Federal Loan vs. Private Loan Benefits: </strong>Some federal student loans include unique benefits that the borrower may not receive with a private student loan, some of which we do not offer with the Education Refinance Loan. Borrowers should carefully review their current benefits, especially if they work in public service, are in the military, are currently on or considering income based repayment options or are concerned about a steady source of future income and would want to lower their payments at some time in the future. When the borrower refinances, they waive any current and potential future benefits of their federal loans and replace those with the benefits of the Education Refinance Loan. For more information about federal student loan benefits and federal loan consolidation, visit <a href="http://studentaid.ed.gov">http://studentaid.ed.gov</a>. We also have several resources available to help the borrower make a decision at <a href="http://www.citizensone.com/EdRefinance">http://www.citizenOne.com/EdRefinance</a>, including <a href="https://www.citizensbank.com/money-tips/student-loans/should-i-refinance.aspx">Should I Refinance My Student Loans?</a> and our FAQs. <a href="https://www.citizensbank.com/money-tips/student-loans/should-i-refinance.aspx">Should I Refinance My Student Loans?</a> includes a comparison of federal and private student loan benefits that we encourage the borrower to review. </p><p><strong>Citizens One Education Refinance Loan Eligibility: </strong>Eligible applicants may not be currently enrolled, must be in repayment of their existing student loan(s) and must make the minimum number of payments after leaving school. Primary borrowers must be a U.S. citizen, permanent resident or resident alien with a valid U.S. Social Security Number residing in the United States. Resident aliens must apply with a co-signer who is a U.S. citizen or permanent resident. The co-signer (if applicable) must be a U.S. citizen or permanent resident with a valid U.S. Social Security Number residing in the United States. For applicants who have not attained the age of majority in their state of residence, a co-signer will be required. Citizens One reserves the right to modify eligibility criteria at anytime. Interest rate ranges subject to change. Education Refinance Loans are subject to credit qualification, completion of a loan application/consumer credit agreement, verification of application information, certification of borrower's student loan amount(s) and highest degree earned.</p></div>
+      </div>
+</footer>
+<a href="https://lpcdn.lpsnmedia.net/le_unified_window/index.html?lpUnifiedWindowConfig=%7B%22accountId%22%3A%2218833366%22%2C%22env%22%3A%22prod%22%2C%22clickedChannel%22%3A%22-lpuw-chat%22%2C%22external%22%3Atrue%2C%22supportBlockCCPattern%22%3Afalse%2C%22scp%22%3A%22uw%22%2C%22engConf%22%3A%7B%22async%22%3Afalse%2C%22scid%22%3A%223%22%2C%22cid%22%3A192210112%2C%22eid%22%3A192210512%2C%22lang%22%3A%22en-US%22%2C%22svid%22%3A%22NlM2UzZTEzOGIwZDE1YmEw%22%2C%22ssid%22%3A%22tSmpp4-FRq23DPMX9_xl0A%22%2C%22lewid%22%3A32467214%2C%22allowUnauthMsg%22%3Afalse%2C%22availabilityPolicy%22%3A0%2C%22isOffline%22%3Atrue%7D%7D" target="_blank" id="LPMcontainer-1557733131116-0" class="LPMcontainer LPMoverlay" role="button" tabindex="0">
+    <div id="LPMlabel-1557733131118-1" class="LPMlabel">GET IN TOUCH
+    </div>
+</a>
+</div>
+<script src="scripts/jquery-3.3.1.min.js"></script> 
+<script src="scripts/subnav-and-login.js"></script>
+</body>
+</html>

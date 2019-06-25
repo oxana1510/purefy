@@ -1,0 +1,110 @@
+@font-face{
+    font-family: "HelveticaNeueLTStd-Md";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/HelveticaNeueLTStd-Md.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeueLTStd-Md.woff2') format('woff2'),
+    url('../fonts/HelveticaNeueLTStd-Md.otf') format('opentype'),
+    url('../fonts/HelveticaNeueLTStd-Md.woff') format('woff'),
+    url('../fonts/HelveticaNeueLTStd-Md.ttf') format('truetype'),
+    url('../fonts/HelveticaNeueLTStd-Md.svg#HelveticaNeueLTStd-Md') format('svg');
+}
+@font-face {font-family: "HelveticaNeue45Light";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/HelveticaNeue45Light.eot");
+    src: url("../fonts/HelveticaNeue45Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeue45Light.woff2") format("woff2"),
+    url("../fonts/HelveticaNeue45Light.woff") format("woff"),
+    url("../fonts/HelveticaNeue45Light.ttf") format("truetype"),
+    url("../fonts/HelveticaNeue45Light.svg#Helvetica Neue LT Std") format("svg");
+}
+@font-face{
+    font-family: "HelveticaNeueLTStd-Hv";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/HelveticaNeueLTStd-Hv.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/HelveticaNeueLTStd-Hv.woff2') format('woff2'),
+    url('../fonts/HelveticaNeueLTStd-Hv.otf') format('opentype'),
+    url('../fonts/HelveticaNeueLTStd-Hv.woff') format('woff'),
+    url('../fonts/HelveticaNeueLTStd-Hv.ttf') format('truetype');
+}
+@font-face {font-family: "HelveticaNeueLTStd35Thin";
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/HelveticaNeueLTStd35Thin.eot");
+    src: url("../fonts/HelveticaNeueLTStd35Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HelveticaNeueLTStd35Thin.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueLTStd35Thin.woff") format("woff"),
+    url("../fonts/HelveticaNeueLTStd35Thin.ttf") format("truetype"),
+    url("../fonts/HelveticaNeueLTStd35Thin.svg#Helvetica Neue LT Std") format("svg");
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?u5uzbq');
+  src:  url('../fonts/icomoon.eot?u5uzbq#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?u5uzbq') format('truetype'),
+  url('../fonts/icomoon.woff?u5uzbq') format('woff'),
+  url('../fonts/icomoon.svg?u5uzbq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-menu:before {
+  content: "\e900";
+}
+.fa:before{
+    font-family: 'icomoon';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3rem;
+    content: "\e900";
+}
+
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?70560500');
+  src: url('../fonts/fontello.eot?70560500#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff2?70560500') format('woff2'),
+       url('../fonts/fontello.woff?70560500') format('woff'),
+       url('../fonts/fontello.ttf?70560500') format('truetype'),
+       url('../fonts/fontello.svg?70560500#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+}
+.icon-info-circle:before { content: '\e800'; } /* '' */
+.icon-down-dir:before { content: '\e801'; } /* '' */
+.icon-left-open:before { content: '\e802'; } /* '' */
+.icon-angle-double-left:before { content: '\f100'; } /* '' */
+.icon-angle-double-right:before { content: '\f101'; } /* '' */
+
+$font1: "HelveticaNeueLTStd-Md", sans-serif;
+$font2: "HelveticaNeue45Light", sans-serif;
+$font-bold: "HelveticaNeueLTStd-Hv", sans-serif;
+$font3: "HelveticaNeueLTStd35Thin", sans-serif;
+

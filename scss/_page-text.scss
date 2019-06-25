@@ -1,0 +1,104 @@
+@media screen and (min-width:100px){
+.page-text{
+	.container{
+		padding: 25px;
+		letter-spacing: 0.5px;
+	}
+	h1{
+		font: 24px/28px $font1;
+		margin-bottom: 10px;
+	}
+	h2{
+		font: 600 20px/30px $font1;
+	}
+	h3{
+		font: 600 18px/30px $font1;
+	}
+	p{
+		padding: 3px 0 2px 0;
+		color: #58595b;
+		margin-bottom: 1em;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	a{
+		color: #03bfd7;
+		&:hover{
+			color: #000;
+		}
+	}
+	ul{
+		margin-top: 15px;
+		li{
+			list-style: disc;
+		    font-size: 18px;
+		    line-height: 22px;
+		    color: #58595b;
+		    margin-bottom: 12px;
+		}
+	}
+	.underline {
+	    text-decoration: underline;
+	}
+	h2.font25,
+	h3.font25{
+	    font-size: 28px;
+	    margin-bottom: 15px;
+	}
+	.font20{
+		font-size: 20px;
+		margin-top: 12px;
+	}
+}
+.faq a{
+	font-family: $font1;
+}
+.faq-header{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.pt-20{
+	padding-top: 20px;
+}
+.pb-15{
+	padding-bottom: 15px;
+}
+}
+@media screen and (min-width: 480px){
+.page-text .container{
+	.faq-header, h1{
+		font-size: 26px;
+		text-transform: uppercase;
+	}
+	ul li, p{
+		font-size: 18px;
+		line-height: 30px;
+	}
+}
+}
+@media screen and (min-width: 768px){
+.page-text .container{
+	padding: 55px 20px;
+	.faq-header, h1{
+		font-size: 40px;
+	}
+	p{
+		font-size: 17px;
+	}
+	ul{
+		margin-left: 20px;
+		li{
+			line-height: 25px;
+		}
+	}
+
+}
+.text20 .container p{
+	font-size: 20px;
+}
+}
+@media screen and (min-width: 960px){
+.page-text .container ul{
+	margin-left: 35px;
+}
+}

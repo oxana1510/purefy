@@ -1,0 +1,45 @@
+/*==============right-blog-section==============================*/
+@media screen and (min-width: 100px){
+.right-blog-section{
+    max-width: 280px;
+    padding: 30px;
+    margin: auto;
+    h3{
+        font: 20px/30px $font1;
+        margin-bottom: 5px;
+    }
+    ul{
+        margin-bottom: 20px;
+    }
+    li{
+        margin-bottom: 6px;
+        a{
+        color: #03bfd7;
+        font-size: 15px;
+        line-height: 20px;
+        &:hover{
+            color: gray;
+        }
+        }
+
+    }
+    .search-glass input[type=text]{
+        border-radius: 0;
+        border: 1px solid #03bfd7;
+    }
+}
+}
+@media screen and (min-width: 768px){
+.right-blog-section{
+    -webkit-box-flex: 1;
+        -ms-flex: 1 30%;
+            flex: 1 30%;
+    margin-top: 23px;
+    padding: 30px 20px;
+}
+}
+@media screen and (min-width: 960px){
+.right-blog-section{
+    margin-top: 33px;
+}   
+}

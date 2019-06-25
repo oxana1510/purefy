@@ -1,0 +1,34 @@
+ @media screen and (min-width:100px){
+ .sitemap{
+ 	h1{
+ 		font: 24px $font1;
+		padding-bottom: 15px;
+		color: #273945;
+		text-transform: uppercase;
+ 	}
+ 	ul li{
+	    font: 18px/22px $font-bold;
+	    border-bottom: solid 1px #ccc;
+	    padding-bottom: 15px;
+	    position: relative;
+	    margin-bottom: 12px;
+	    a{
+			color: #03bfd7;
+			&:hover{
+				color: #000;
+			}
+	    }
+	    ul{
+	    	margin: 15px 0 5px 30px;
+    		font-size: 90%;
+    		li{
+    			font-family: $font3;
+    			border-bottom: none;
+    		}
+	    }
+	}
+ }	
+ }
+  @media screen and (min-width:480px){
+  	
+  }

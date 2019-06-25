@@ -1,0 +1,109 @@
+@media screen and (min-width: 100px){
+footer{
+    background: #ededed;
+    padding: 50px 0 30px 0;
+    font-family: $font3;
+    h3{
+        font: 16px $font-bold;
+        text-transform: uppercase;
+        margin: 0 0 1.5rem;
+        color: #000;
+    }
+    li{
+        font-size: 18px;
+        color: #58595b;
+        margin-bottom: 1.5rem;
+        a{
+            color: #58595b;
+            &:hover{
+              color: #000;
+              text-decoration: underline;
+            }
+        }
+    }
+    .container{
+         display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 0 30px;
+        max-width: 280px;
+        div:nth-child(1) ul li {
+            margin-bottom: 5px;
+        }
+    }
+}
+.columns{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 100%;
+    flex: 1 100%;
+    margin: auto;
+    margin-bottom: 40px;
+    .footer-img{
+      white-space: nowrap;
+    }
+}
+.social{
+    margin-bottom: 10px;
+}
+.search-inpt{
+    position: relative;
+    input[type="text"]{
+        border: 1px solid #009ecb;
+        border-radius: 12px;
+        font: 500 15px $font-bold;
+        color: #c7c7c7;
+        width: 100%;
+        padding: 4.5px 4px;
+        margin-bottom: 20px;
+    }
+    img{
+      position: absolute;
+      right: 15px;
+      top: 5px;
+    }
+}
+.stext {
+        font-size: 15px;
+}
+    ::-webkit-input-placeholder {
+      color: #c7c7c7;
+      opacity: 1
+  }
+  ::-moz-placeholder {
+      color: #c7c7c7;
+      opacity: 1
+  }
+  :-ms-input-placeholder {
+      color: #c7c7c7;
+      opacity: 1
+  }
+  :-moz-placeholder {
+      color: #c7c7c7;
+      opacity: 1
+  }
+}
+
+
+@media screen and (min-width: 768px){
+footer .container{
+    max-width: 1240px;
+    padding: 0 10px;
+}
+.columns{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 20%;
+    flex: 1 20%;
+    padding: 0 10px 0;
+    margin: 0;
+}
+}
+/*===================GET IN TOUCH======================*/
+.LPMcontainer{
+    z-index: 900 ;
+    margin: -57px 1px 1px auto; padding: 0px; border-style: solid; border-width: 0px; font-style: normal; font-weight: normal; font-variant: normal; list-style: none outside none; letter-spacing: normal; line-height: normal; text-decoration: none; vertical-align: baseline; white-space: normal; word-spacing: normal; background-repeat: repeat-x; background-position: left bottom; background-color: rgb(0, 40, 86); border-color: transparent; border-radius: 2px; width: 29px; height: 129px; cursor: pointer; display: block; z-index: 107158; position: fixed; top: 50%; bottom: auto; left: auto; right: 0;
+}
+.LPMlabel{
+  margin: 0px; padding: 0px; border-style: none; border-width: 0px; font-style: normal; font-weight: bold; font-variant: normal; list-style: none outside none; letter-spacing: normal; line-height: normal; text-decoration: none; vertical-align: baseline; white-space: nowrap; word-spacing: normal; position: absolute; -webkit-transform: rotate(-90deg); -ms-transform: rotate(-90deg); transform: rotate(-90deg); font-family: Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); top: 58px; left: -29px; font-size: 12px; z-index: 600;
+}

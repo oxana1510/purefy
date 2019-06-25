@@ -1,0 +1,24 @@
+.list-tick ul li{
+    list-style: none;
+    padding: 7px 0 7px 48px;
+    margin: 0 0 13px 0;
+    background: url(../images/check-box.png) no-repeat;
+    font: 20px $font-bold;
+    color: #58595b;
+}
+@media screen and (min-width:1024px){
+.list-tick .container{
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    div{
+	    -webkit-box-flex: 1;
+	        -ms-flex: 1 1 50%;
+	            flex: 1 1 50%;
+	    width: 0;
+	    &:last-child{
+	    	margin-left: 20px;
+	    }
+	}
+}
+}

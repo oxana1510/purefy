@@ -1,0 +1,700 @@
+h1 {
+    text-transform: none !important;
+    font-size: 40px !important;
+    line-height: 1.1;
+    color: #48484A;
+    padding-top: 35px !important;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    font-weight: 600;
+}
+
+h1 span {
+    
+    font-size: 26px !important;
+    line-height: 1.1;
+   
+   
+}
+
+.fmr-bg {
+    background-image: /*linear-gradient(to right, white, transparent,transparent,transparent,transparent,transparent,transparent, white),*/ url(../images/fmr-bg.jpg);
+    background-position: center 18%;
+    background-repeat: no-repeat;
+    min-height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+
+
+.gradient-border {
+    background-image: linear-gradient(to right, #0bbed5, #00a152, #c1d02b);
+    height: 15px;
+    margin-top: -30px;
+    background-size: cover;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .questiondiv{
+    border: none !important;
+}
+
+#slh-logo {
+    width: 200px;
+    margin-left: -30px;
+    margin-top: -6px;
+}
+
+.inline-div {
+    display: inline-block;
+    max-width: 200px;
+}
+
+#cscore {
+    position: absolute;
+    top: -65px;
+}
+
+
+#li_cscore label {
+    display: none !important;
+    float: unset;
+}
+
+#li_cscore input {
+    margin-left: 350px !important;
+    margin-top: 28px;
+}
+
+#li_sloan p {
+    color: #44c5d8;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'HelveticaNeueLTStd-Bd';
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    line-height: inherit;
+}
+
+    #li_sloan p:before {
+        display: none;
+    }
+
+.questionform input[type="text"] {
+    text-align: left !important;
+}
+
+
+
+#li_score-type label {
+    display: inline-block;
+    border: 1px solid #44c5d8;
+    padding: 5px 10px !important;
+    cursor: pointer;
+
+
+}
+
+
+    #li_score-type label:first-child {
+        margin-left: 50px;
+    }
+
+    #li_score-type label:nth-child(2) {
+        margin-left: 0px;
+    }
+
+#li_score-type input {
+    margin: 0px;
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+
+#li_score-type label.active {
+    background-color: #44c5d8;
+    color: white !important;
+}
+
+#li_score-type label:hover:not(.active) {
+    background-color: #f1f1f1;
+    color: white !important;
+}
+
+    label.active div {
+        color: white !important;
+    }
+
+    .questionform .hide-input{
+        margin-bottom: 10px;
+    }
+    .hide-input input{
+        display:none !important;
+    }
+
+
+.pull-disclaimer {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.bottom-disclaimer {
+    margin-left: 50px;
+}
+
+.half-q {
+    max-width: 400px;
+    display: inline-block;
+}
+
+.quarter-q {
+    display: inline-block;
+    min-width: 200px !important;
+}
+
+.questionform .quarter-q input[type="text"], .questionform .quarter-q select {
+    min-width: 100px !important;
+    max-width: 150px !important;
+}
+
+#zip {
+    margin-left: 30px !important;
+}
+
+#_fmr-head-button, #mSavingsButton {
+    display: none;
+}
+
+
+.inline-div h2 {
+    margin-left: 20px;
+}
+
+.inline-div {
+    margin-top: 20px;
+}
+
+#li_sloan label{
+
+    margin-bottom: 0px !important;
+}
+
+.questiondiv  #li_score-type{
+    margin-bottom: 5px !important;
+}
+
+
+@media only screen and (min-width:1200px){
+    .fmr-bg{
+        width: 1200px;
+    }
+
+    #li_state.estimate-hide {
+        width: 470px;
+    }
+ 
+}
+
+@media only screen and (min-width:1025px) and (max-width: 1199px){
+    #li_state.estimate-hide {
+        width: 364px;
+    }
+    .bottom-disclaimer {
+        margin-right: 60px !important;
+    }
+
+}
+
+@media only screen and (min-width:960px) and (max-width:1024px) {
+
+    .questionform .quarter-q input[type="text"], .questionform .quarter-q select {
+        max-width: 130px !important;
+    }
+
+    h1 {
+        margin-left: 30px;
+    }
+    #li_state.estimate-hide {
+        width: 364px;
+    }
+    .bottom-disclaimer {
+        margin-right: 60px !important;
+    }
+
+
+  
+}
+
+@media only screen and (max-width:960px) {
+
+    #li_sloan label {
+        margin: 0px 10px !important;
+
+    }
+
+    #li_sloan div {
+   
+        font-size: 14px !important;
+    }
+
+    .questionform .quarter-q input[type="text"], .questionform .quarter-q select {
+        min-width: 350px !important;
+        max-width: 350px !important;
+    }
+
+    #zip {
+        margin-left: 50px !important;
+    }
+
+    .slh-bg {
+        background-position: 64% 50%;
+    }
+
+    h1 {
+        margin-left: 20px !important;
+        font-size:36px !important;
+    }
+
+    .inline-div h2 {
+        margin-left: 20px;
+    }
+
+    #li_cscore {
+        margin-left:50px !important;
+    }
+
+    #li_state.estimate-hide {
+        width: 324px;
+    }
+    .bottom-disclaimer {
+        margin-right: 60px !important;
+    }
+ 
+
+}
+
+@media only screen and (max-width:767px) {
+    h1 {
+        width: 440px !important;
+        padding-top: 65px !important;
+        font-size: 28px !important;
+        margin-left:0px !important;
+    }
+
+        h1 span {
+            font-size: 22px !important;
+        }
+
+    .fmr-bg {
+        margin-top: -35px !important;
+        min-height: 280px;
+        margin-right: 0px;
+      
+        background-position: center 13%;
+    }
+
+    .slider-cscore {
+        display: none !important;
+    }
+
+    #li_cscore #cscore {
+        position: static;
+        margin-left: 247px !important;
+    }
+
+    .inline-div h2 {
+        margin-left: 0px;
+    }
+
+    #cscore {
+        top: -50px;
+    }
+
+
+    .head-block .logo {
+        margin-top: 10px !important;
+        padding-top: 22px !important;
+    }
+
+    #mobmenu {
+        top: 25px !important;
+    }
+
+    #li_email {
+        max-width: 400px !important;
+        width: 234px !important
+    }
+
+
+
+    #zip {
+        margin-left: 40px !important;
+    }
+
+    .questionform .quarter-q input[type="text"], .questionform .quarter-q select {
+        min-width: 320px !important;
+        max-width: 350px !important;
+    }
+
+    #li_d-o-b .custom-error, #li_zip .custom-error {
+        margin-top: -28px !important;
+    }
+
+    #slider-cscore {
+        width: 300px;
+    }
+
+    .questionform div:not(#li_score-type) label, .questionform div p {
+        padding-left: 0px !important;
+    }
+
+    .questionform input[type="text"], .questionform #degree, .questionform #state, .questionform #zip, .questionform #degree_in, .questionform #state_in {
+        margin-left: 10px !important;
+    }
+
+    #li_cscore {
+        margin-left: 20px !important;
+    }
+    .bottom-disclaimer {
+        margin-right: 20px !important;
+    }
+    #li_sloan{
+        text-align: left !important;
+        margin-bottom: 20px !important;
+    }
+
+    #li_sloan div{
+      text-transform: none !important;
+        padding: 5px !important;
+    }
+
+  
+
+    #li_sloan div.active{
+        border-bottom: 0px !important;
+       
+    }
+    #li_sloan div input{
+        display:initial !important;
+    }
+
+    .bottom-tab{
+        padding: 5px !important;
+        margin-top:20px;
+    }
+
+}
+
+@media only screen and (max-width:480px) {
+    .bottom-disclaimer {
+        margin-right: 20px;
+    }
+
+    h1 {
+        width: 300px !important;
+        font-size: 26px !important;
+        margin-left: 0px !important;
+        padding-top: 10px !important;
+        
+    }
+
+
+    h1 span{
+        font-size: 14px !important;
+    }
+
+    .fmr-bg {
+        background-position: 40% 7% !important;
+    }
+    .inline-div h2 {
+        margin-top: 20px !important;
+    }
+
+    .inline-div {
+        margin-top: 0px ;
+    }
+
+    .questionform div:not(#li_score-type) label, .questionform div p{
+        padding-left: 0px !important;
+    }
+
+    .questionform input[type="text"], .questionform #degree, .questionform #state, .questionform #zip, .questionform #degree_in, .questionform #state_in {
+        margin-left: 10px !important;
+    }
+
+    .questionform div p{
+        font-size: 15px;
+    }
+    #slider-grad{
+        margin-left:0px;
+        width: 80%;
+    }
+    #slider-cscore{
+        width:272px;
+    }
+    #li_cscore{
+        margin-left: 0px !important;
+    }
+
+        #li_score-type label:first-child {
+            margin-left: 0px;
+        }
+
+    .pull-disclaimer p {
+        margin-left: -50px !important;
+        text-align: left !important;
+    }
+
+    #li_sloan label {
+        padding-left: 0px !important;
+    }
+
+#li_score-type {
+    width: 300px;
+}
+
+    #li_cscore #cscore{
+        margin-left:216px !important;
+    }
+
+    .questionform .quarter-q input[type="text"], .questionform .quarter-q select {
+        min-width: 190px !important;
+    }
+
+    .bottom-disclaimer, #fmr-clear .slr-btn {
+        margin-left: 0px !important;
+    }
+
+    .container h2 {
+        text-align: left
+    }
+
+    #slh-logo {
+        margin-left: 3px !important;
+    }
+
+    .fmr-bg {
+        background-size: cover;
+        min-height: 250px;
+        margin-top: 0px !important;
+    }
+
+
+    .head-block .logo {
+        margin-top: 10px !important;
+        padding-top: 22px !important;
+    }
+
+    #mobmenu {
+        top: 25px !important;
+    }
+
+    #li_email {
+        max-width: 400px !important;
+        width: 234px !important
+    }
+
+    .bottom-tab{
+        margin: 0px 5px 40px 5px !important;
+    }
+
+    .green-head{
+        font-size: 28px !important;
+    }
+
+    #second-half h3{
+        font-size: 24px !important;
+    }
+
+    #second-half p{
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+
+    .bottom-tab{
+        font-size:14px;
+        margin-top:20px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .fmr-bg
+    {
+        background-position: 64% 50%;
+    }
+
+
+}
+
+/*Form organization*/
+
+.pull-disclaimer p{
+    font-size: 14px;
+}
+
+#li_contact-rent{
+    display: block;
+    margin-top: -30px;
+}
+
+#li_degree, #li_total-payment {
+    display: block;
+}
+
+ #li_schoolname, #li_email, #li_state, #li_income{
+    display: inline-block;
+}
+
+
+.questionform label:before{
+    display:none !important;
+}
+
+.questionform .radioints p {
+    color: #000;
+    font-size: 18px;
+    display: block;
+    position: relative;
+    padding-left: 50px;
+    font-family: 'HelveticaNeueLTStd-Bd';
+    font-weight: 400;
+    padding-bottom: 5.5px;
+}
+
+.radioints div{
+    color: #000 !important;
+}
+
+.questionform .radioints div.active {
+    font-family: 'HelveticaNeueLTStd-Md' !important;
+}
+
+.bottom-disclaimer {
+    margin-right: 90px;
+}
+
+@media only screen and (min-width:961px) {
+    .questionform #li_zip .validation-error {
+        margin-left: 30px !important;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .questionform #li_d-o-b .validation-error, .questionform #li_zip .validation-error {
+
+        margin-top: 10px !important;
+    }
+
+}
+
+.fa-info-circle{
+    font-size: 20px;
+    color: #0bbed5;
+    cursor: pointer;
+}
+
+
+/*Imagine DC Redesign*/
+
+#li_sloan{
+    text-align: center;
+    margin-bottom:50px;
+
+}
+
+    #li_sloan:before {
+
+    display: block;
+    content: " ";
+    margin-top: -165px;
+    height: 165px;
+    visibility: hidden;
+}
+
+
+    #li_sloan label {
+        display: inline-block;
+        margin: 0px 15px;
+        cursor: pointer;
+        text-transform: uppercase;
+        
+        letter-spacing: 0.6px;
+    }
+    #li_sloan div.active, #li_sloan div:hover {
+        
+        border-bottom: 6px solid #B3CA33;
+    }
+
+    #li_sloan div{
+        padding: 10px 10px;
+        
+      
+    }
+
+    #li_sloan div input {
+       display: none;
+    }
+
+    #second-half{
+        margin-top:90px;
+    }
+
+.green-head {
+    color: #279B48;
+    font-size:32px;
+    text-align: center;
+}
+
+.bottom-tab {
+    padding: 10px;
+    display: inline-block;
+    font-weight: 600;
+    margin: 0px 20px 40px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'HelveticaNeueLTStd-Bd';
+    font-weight: 400;
+    color:#000000;
+}
+
+    .bottom-tab.active-view, .bottom-tab:hover {
+        border-bottom: 6px solid #B3CA33;
+    }
+
+
+#second-half h3 {
+    color: #34B3CF;
+    padding:40px 20px;
+    font-size: 26px;
+    font-weight:500;
+    
+}
+
+#second-half p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right:auto;
+    font-weight:400;
+    line-height:28px;
+    font-size:18px;
+}
+
+.get-started {
+    color: white !important;
+    background-color: #00a152;
+    padding: 20px;
+    margin:40px auto;
+    text-transform:uppercase;
+    font-weight:400;
+    max-width:220px;
+    font-size:20px;
+}
+/* END Imagine DC Redesign*/

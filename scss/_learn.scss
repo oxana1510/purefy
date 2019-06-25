@@ -1,0 +1,204 @@
+@media screen and (min-width: 100px){
+.blog-container{
+    .container{
+        padding: 50px 10px 20px;
+    }
+    .list-item{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        a{
+            -webkit-box-flex: 1;
+                -ms-flex: 1 1 auto;
+                    flex: 1 1 auto;
+        }
+        h1{
+            color: #273945;
+            font: 32px $font1;
+            margin-bottom: 15px;
+            -webkit-box-flex: 1;
+                -ms-flex: 1 1 100%;
+                    flex: 1 1 100%;
+        }
+    }
+    .blog-sample{
+        max-width: 420px;
+        width: 100%;
+        padding-bottom: 30px;
+        margin: auto;
+    }
+    .blog-img img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .blog-sample-title{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        background: #1DBFD6;
+        height: 95px;
+        text-align: center;
+        h2{
+            padding: 10px;
+            font: 20px/24px $font1;
+            text-shadow: 0px 1px 8px #353535;
+            color: #fff;
+        }
+    }
+}
+}
+@media screen and (min-width: 480px){
+.blog-container{
+    .blog-sample{
+        max-width: 490px;
+    }
+}  
+}
+@media screen and (min-width: 768px){
+.blog-container{
+    .container{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    .simple-pagination{
+        -webkit-box-flex: 1;
+            -ms-flex: 1 100%;
+                flex: 1 100%;
+    }
+    .list-wrapper{
+        -webkit-box-flex: 1;
+            -ms-flex: 1 50%;
+                flex: 1 50%;
+    }
+    .list-item h1{
+        margin-left: 10px;
+    }
+}
+}
+@media screen and (min-width: 960px){
+.blog-container .list-item{
+    a{
+        -webkit-box-flex: 1;
+            -ms-flex: 1 45%;
+                flex: 1 45%;
+        margin: 10px;
+    }
+}
+}
+@media screen and (min-width: 1200px){
+.blog-container .list-item{
+    a{
+        -webkit-box-flex: 1;
+            -ms-flex: 1 27%;
+                flex: 1 27%;
+    }
+} 
+}
+
+
+/*==================pagination==========================*/
+.simple-pagination{
+    ul{
+        text-align: center;
+        li{
+            display: inline-block;
+            border-radius: 2px;
+            font-size: 13px;
+            margin: 0 6px;
+            background: #fafafa;
+            a{
+                color: #303030;
+                padding: 21px 25px;
+                display: block;
+            }
+            &:hover{
+                background: #1dbfd6;
+                color: #fff;
+
+            }
+           &:hover a,span{
+                color: #fff;
+            }
+        }
+        .active{
+            background: #1dbfd6;
+            padding: 21px 25px;
+        }
+        .disabled{
+            background: #ddd;
+            cursor: default;
+            height: 58px;
+            width: 58px;
+            vertical-align: bottom;
+            &:hover{
+                background: #ddd;
+            }
+            .next{
+                color: transparent;
+                &:before{
+                    font: 900 16px/52px "fontello";
+                    content: '\f101'; 
+                    color: #999;
+                    display: inline;
+                }
+                &:hover:before{
+                    color: #999;
+                }
+            }
+            .prev{
+                color: transparent;
+                &:before{
+                    font: 900 16px/52px "fontello";
+                    content: '\f100'; 
+                    color: #999;
+                    display: inline;
+                }
+                &:hover:before{
+                    color: #999;
+                }
+            }
+        }
+        .next{
+            color: transparent;
+            &:before{
+                font: 900 16px "fontello";
+                content: '\f101';
+                color: #303030;
+                display: inline;
+            }
+            &:hover{
+                color: transparent;
+            }
+            &:hover:before{
+                    color: #fff;
+            }
+        }
+        .prev{
+            color: transparent;
+            &:before{
+                font: 900 16px "fontello";
+                content: '\f100';
+                color: #303030;
+                display: inline;
+            }
+            &:hover{
+                color: transparent;
+            }
+            &:hover:before{
+                    color: #fff;
+            }
+        }
+    }
+}

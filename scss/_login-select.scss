@@ -1,0 +1,101 @@
+@media screen and (min-width: 100px){
+.login-block .container{
+	padding: 20px 25px;
+	text-align: center;
+}
+.login-c{
+	h1{
+		font: 22px/40px $font1;
+		text-transform: uppercase;
+	}
+	p{
+		margin-bottom: 45px;
+		line-height: 26px;
+		color: #58595b;
+	}
+	a{
+		color: #03bfd7;
+		font-family: $font2;
+		font-weight: 900;
+	}
+}
+.bigbtn2{
+	display: block;
+	margin: 25px auto auto;
+	text-transform: uppercase;
+	font: 20px/49px $font1;
+	max-width: 250px;
+	width: 100%;
+	border-radius: 13px;
+	background: #03bfd7;
+	color: #fff;
+	white-space: nowrap;
+}
+.login-s{
+	text-align: center;
+}
+.login-s select,
+.login-s select:hover,
+.login-s select:focus{
+	max-width: 250px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #45c8da;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    font: 20px $font3;
+    color: #58595b;
+     -webkit-appearance: none;
+  		-moz-appearance: none;
+  			appearance: none;
+    background: transparent url(../images/select-b-arrow.png) no-repeat right 8px;
+    display: inline-block;
+    min-height: 41px;
+    padding-bottom: 5px;
+    left: 6px;
+    top: 12px;
+    &::-ms-expand {
+	    display: none;
+	}
+    option{
+    	font-family: $font1;
+    }
+}
+}
+@media screen and (min-width: 480px){
+.login-c{
+	h1{
+		font-size: 40px;
+	}
+	p{
+		font-size: 18px;
+	}
+}
+}
+@media screen and (min-width: 768px){
+.login-block .container{
+	padding: 55px 20px;
+}
+.login-s {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.bigbtn2{
+	margin: 0 0 0 50px;
+}
+.login-c p{
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+}

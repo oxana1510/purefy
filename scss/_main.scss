@@ -1,0 +1,312 @@
+/*===========slider==================*/
+.slide1{
+    background: url(../images/slide1.jpg);
+}
+.slide2{
+    background: url(../images/slide2.jpg);
+}
+.slide3{
+    background: url(../images/slide3.jpg);
+}
+
+@media screen and (min-width:100px){
+.slide1,
+.slide2,
+.slide3{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 90px;
+    max-height: 390px;
+    height: auto;
+} 
+.main-h1{
+    font: 22px/46px  $font1;
+    color: #fff;
+    text-shadow: 2px 5px 10px rgba(0,0,0,.6);
+    span{
+        margin-left: 50px;
+    }
+} 
+.slider-block .container{
+    padding: 10px 20px;
+    background: #000;
+}
+.findSavings{
+    display: none;
+}
+}
+@media screen and (min-width: 480px){
+.slide1,
+.slide2,
+.slide3{
+    min-height: 150px;
+}   
+}
+@media screen and (min-width: 620px){
+.main-h1{
+    font-size: 46px;
+}
+}
+@media screen and (min-width:768px){
+.slider-block{
+    position: relative;
+    .container{
+       position: absolute;
+       background: transparent;
+       right: 0;
+       left: 0;
+       bottom: 44px;
+    }
+}
+.slide1,
+.slide2,
+.slide3{
+    min-height: 280px;
+}  
+.main-h1{
+    font-size: 36px;
+}   
+}
+@media screen and (min-width:1024px){
+.findSavings{
+    position: absolute;
+    display: block;
+    background: #03bfd7;
+    padding: 16px 12px 0;
+    font: 20px/1 $font1;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 10px 0 rgba(0,0,0,.6);
+    box-shadow: 10px 10px 10px 0 rgba(0,0,0,.6);
+    width: 200px;
+    height: 80px;
+    bottom: 36px;
+    right: 10px;
+    &:after{
+        position: absolute;
+        content: url(../images/home-arrow-white.png);
+        margin-left: 7px;
+        right: 64px;
+        top: 43px;
+    }
+    &:hover{
+        background: #f0f0f0;
+        color: #03bfd7;  
+        strong{
+           color: #03bfd7; 
+        }
+    }
+    strong{
+        display: block;
+        margin: 5px 8px 0 0;
+        color: #fff;
+    }
+}
+.main-h1{
+    font-size: 50px;
+} 
+.slide1,
+.slide2,
+.slide3{
+    min-height: 502px;
+}  
+}
+
+
+
+
+/*=======================white-data=========================*/
+@media screen and (min-width:300px){
+.intrpad{
+    padding: 20px 12px;
+    text-align: center;
+    color: #fff;
+    &:nth-child(even){
+        color: #333;
+    }
+    &:first-child{
+        background: #00acc6;
+    }
+    &:nth-child(3){
+        background: #273945;  
+    }
+    .title a{
+        display: block;
+        color: #fff;
+        font: 24px $font-bold;
+        text-transform: uppercase;
+        margin: 9px 0 6px 0;
+    }
+    .read-more a {
+        padding: 5px 16px;
+        margin: 0 0 12px 0;
+        font-size: 12px;
+        line-height: 27px;
+        color: #838383;
+        text-transform: uppercase;
+        border: 1px solid #03bfd7;
+        border-radius: 10px/14px;
+        background: #fff;
+        &:hover {
+            text-decoration: underline;
+            color: #000;
+        }
+    }
+    .abstract p{
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+}
+.white-data .icon{
+    display: none;
+}
+.intrpad:nth-child(even) .title a{
+    color: #333;
+}
+}
+@media screen and (min-width:768px){
+.white-data{
+    padding: 40px 0 70px 0;
+    .container{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+} 
+.intrpad,
+.intrpad:nth-child(even) .title a{
+color: rgba(0, 0, 0, 0.7);
+margin-bottom: 25px;
+}
+.intrpad:nth-child(3),
+.intrpad:first-child{
+background: transparent;
+}
+.white-data .icon{
+display: block;
+}
+.intrpad{
+    text-align: left;
+    .abstract p{
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .title a{
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.7);
+        colr
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+}
+
+/*==================blockquote=========================*/
+@media screen and (min-width:100px){
+.blockquote{
+    background: #58595b;
+    .container{
+        padding: 20px 0 50px;
+    }
+    .quotes{
+        padding: 15px 25px 30px;
+        color: #fff;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+    p{
+        margin: .7em 0 1em 0;
+    }
+    strong{
+        color: #fff;
+        font: 16px $font1;
+    }
+}
+.quotes::before{
+    content: "“";
+    position: absolute;
+    font: bold 60px/1px Times, TimesNewRoman, "Times New Roman", Baskerville, Georgia, serif;
+}
+.c-1:before{
+    color: #03bfd7;
+}
+.c-2:before {
+    color: #00a84f;
+}
+.c-3:before {
+    color: #cbdb2a;
+}
+}
+@media screen and (min-width:768px){
+.blockquote .container{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+@media screen and (min-width:960px){
+.blockquote .container{
+    padding-top: 85px;
+}
+.quotes::before{
+    font-size: 120px;
+}
+}
+/*==================featured=========================*/
+@media screen and (min-width: 100px){
+.featured{
+    .container{
+        padding: 30px 0;
+    }
+    h2{
+        font: 30px $font-bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+.results_list{
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        li{
+            -webkit-box-flex: 1;
+                -ms-flex: 1 35%;
+                    flex: 1 35%;
+            text-align: center;
+            img{
+                width: 65%;
+                height: auto;
+            }
+        }
+}
+}
+@media screen and (min-width: 480px){
+.results_list li{
+    -webkit-box-flex: 1;
+        -ms-flex: 1 20%;
+            flex: 1 20%;
+}
+}
+@media screen and (min-width: 768px){
+.results_list{
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+}
+.featured {
+    padding: 45px 0;
+
+}
+}
